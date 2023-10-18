@@ -18,8 +18,8 @@ int main() {
 				break;
 			}
 			printf ("codigo de transaccion (1-4)\n");
-			printf ("1. Depósito\n"
-					"2. Extracción\n"
+			printf ("1. Depï¿½sito\n"
+					"2. Extracciï¿½n\n"
 					"3. Comisiones deducidas\n"
 					"4. Intereses acreditados\n");
 			scanf ("%d",&codigo);
@@ -64,7 +64,7 @@ int main() {
 		}
 	}
 	
-	printf ("N° De Clientes:\n");
+	printf ("Nï¿½ De Clientes:\n");
 	for (i=0; i<3; i++)
 	{
 		for (j=0; j<3; j++)
@@ -72,7 +72,7 @@ int main() {
 			printf ("%d ",clientes[i][j]);
 		}
 	}
-	printf ("\nTotal Depósitos:\n");
+	printf ("\nTotal Depï¿½sitos:\n");
 	for (i=0; i<3; i++)
 	{
 		for (j=0; j<3; j++)
@@ -108,4 +108,4 @@ int main() {
 	
 	return 0;
 }
-
+//
